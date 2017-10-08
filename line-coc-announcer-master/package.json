@@ -1,0 +1,25 @@
+{
+  "name": "line-coc-announcer",
+  "version": "1.0.0",
+  "description": "line bot for announcing clash of clan war stats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "KingCosmic",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "clash-of-clans-api": "^0.4.0",
+    "cpu-percentage": "^1.0.3",
+    "cpu-stat": "^2.0.1",
+    "line.js": "^2.3.2",
+    "moment": "^2.18.1",
+    "node-persist": "^2.1.0",
+    "pm2": "^2.6.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "response-time": "^2.3.2",
+    "uptimer": "^0.1.2"
+  }
+}
